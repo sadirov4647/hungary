@@ -81,10 +81,12 @@ img {
 
 .site-header{
     background: url(/images/header/header.png) no-repeat;
+    background-position: center;
+    margin-bottom: 100px;
 }
 .site-nav{
-    padding-top: 25px;
-    padding-bottom: 150px;
+    padding-top: 30px;
+    padding-bottom: 100px;
 }
 .nav-list{
     display: flex;
@@ -106,7 +108,7 @@ img {
     color: #fff;
 }
 
-
+/* Hero */
 .hero-section{
     display: flex;
     align-items: center;
@@ -199,4 +201,71 @@ img {
 .down-button{
     display: flex;
     justify-content: center;
+    padding-bottom: 90px;
+}
+
+/* About */
+.flex-section{
+    display: flex;
+    margin-bottom: 100px;
+}
+.flex-section:nth-child(odd){
+    flex-direction: row-reverse;
+}
+.section-title{
+    font-family: "Banny";
+    font-size: 36px;
+    line-height: 133%;
+    text-transform: uppercase;
+    color: #000000;
+}
+.section-description{
+    margin-right: 80px;
+    width: 600px;
+    text-align: center;
+    align-self: center;
+}
+.section-second-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 155%;
+}
+.section-para{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 171%;
+}
+.section-image{
+    width: 600px;
+    height: 475px;
+}
+.about-image{
+    background: url(/images/section/aboutimg.png) no-repeat;
+    background-size: cover;
+}
+/* Team section */
+.team-section{
+    background: url(/images/section/team-bg.png);
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+.team-section-title{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 117%;
+    text-align: center;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #fff;
+}
+.team-description{
+    color: #fff;
+}
+
+.team-title{
+    color: #fff;
+}
+.team-image{
+    background: url(/images/section/teamimg.png) no-repeat;
+    width: 588px;
 }
