@@ -208,9 +208,11 @@ img {
 .flex-section{
     display: flex;
     margin-bottom: 100px;
-}
-.flex-section:nth-child(odd){
     flex-direction: row-reverse;
+}
+.about-section{
+    display: flex;
+    margin-bottom: 100px;
 }
 .section-title{
     font-family: "Banny";
@@ -240,14 +242,19 @@ img {
     height: 475px;
 }
 .about-image{
-    background: url(/images/section/aboutimg.png) no-repeat;
+    background: url(/images/about/aboutimg.png) no-repeat;
     background-size: cover;
 }
+
+
 /* Team section */
 .team-section{
-    background: url(/images/section/team-bg.png);
+    background: url(/images/about/team-bg.png);
     padding-top: 20px;
     padding-bottom: 45px;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-between;
 }
 .team-section-title{
     font-weight: bold;
@@ -259,6 +266,8 @@ img {
     color: #fff;
 }
 .team-description{
+    margin-right: 0;
+    margin-left: 90px;
     color: #fff;
 }
 
@@ -266,6 +275,25 @@ img {
     color: #fff;
 }
 .team-image{
-    background: url(/images/section/teamimg.png) no-repeat;
-    width: 588px;
+    background: url(/images/about/teamimg.png) no-repeat;
+    background-size: cover;
+}
+/* Book section */
+.book-section{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.book-description{
+    width: 600px;
+
+}
+.book-image{
+    background: url(/images/about/bookimg.png) no-repeat;
+    background-size: cover;
+}
+.book-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
 }
