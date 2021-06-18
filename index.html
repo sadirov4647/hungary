@@ -111,8 +111,31 @@
             <div class="book-description section-description">
                 <h2 class="book-title section-title">book a table</h2>
                 <form class="book-form" action="main.js" method="post">
-                    
+                    <div class="form-left">
+                        <label for="username"></label>
+                        <input type="text" id="username" name="username" placeholder="Name">
+                        <label for="userphone"></label>
+                        <input type="tel" id="userphone" name="userphone" placeholder="Phone">
+                        <label for="userdate"></label>
+                        <input type="date" id="userdate" name="userdate" placeholder="Date">
+                    </div>
+                    <div class="form-right">
+                        <label for="username"></label>
+                        <input type="email" id="username" name="useremail" placeholder="Email">
+                        <select name="people" id="people">
+                            <option value="1">People</option>
+                            <option value="2">People</option>
+                            <option value="3">People</option>
+                            <option value="4">People</option>
+                        </select>
+                        <select name="theme" id="theme">
+                            <option value="1">Theme</option>
+                            <option value="2">Theme</option>
+                            <option value="4">Theme</option>
+                        </select>
+                    </div>
                 </form>
+                <button class="book-btn" type="submit">BOOK NOW</button>
             </div>
             <div class="section-image book-image">
 

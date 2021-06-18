@@ -307,13 +307,45 @@ img {
 .book-form{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    margin-top: 60px;
 }
 .book-form input{
     font-size: 14px;
     line-height: 19px;
-    padding: 12px;
+    padding: 15px;
     background: #E5E5E5;
     border-radius: 5px;
     border: none;
+    outline: none;
+    width: 277px;
+}
+.book-form input:not(:last-child){
+    margin-bottom: 10px;
+}
+.form-left{
+    margin-right: 10px;
+}
+.form-right select{
+    width: 277px;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 15px;
+    background: #E5E5E5;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.form-right select:not(:last-child){
+    margin-bottom: 10px;
+}
+.book-btn{
+    width: 100%;
+    background-color: #E8C300;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    cursor: pointer;
 }
