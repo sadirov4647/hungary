@@ -282,6 +282,7 @@ img {
 .book-section{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin-bottom: 100px;
 }
 .book-title{
@@ -348,4 +349,8 @@ img {
     margin-top: 20px;
     color: #fff;
     cursor: pointer;
+}
+.booking-date{
+    line-height: 12px;
+    justify-items: center;
 }
