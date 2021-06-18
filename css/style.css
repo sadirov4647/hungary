@@ -354,3 +354,23 @@ img {
     line-height: 12px;
     justify-items: center;
 }
+
+
+.specialties{
+    background: url(/images/specialties/specialbg.png) no-repeat;
+}
+.specialties__title{
+    font-weight: bold;
+    padding: 25px 0;
+    color: #fff;
+    line-height: 14px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.specialties__image{
+    background: url(/images/specialties/specialties.png) no-repeat;
+    width: 600px;
+    height: 475px;
+    background-size: contain;
+    margin-right: 40px;
+}
