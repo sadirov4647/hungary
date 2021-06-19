@@ -82,6 +82,7 @@ img {
 .site-header{
     background: url(/images/header/header.png) no-repeat;
     background-position:top center;
+    background-size: cover;
     margin-bottom: 100px;
 }
 .site-nav{
@@ -212,6 +213,7 @@ img {
 }
 .about-section{
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 100px;
 }
 .section-title{
@@ -306,8 +308,9 @@ img {
     background-size: cover;
 }
 .book-form{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     margin-top: 60px;
 }
 .book-form input{
@@ -325,6 +328,7 @@ img {
 }
 .form-left{
     margin-right: 10px;
+    margin-bottom: 20px;
 }
 .form-right select{
     width: 277px;
@@ -358,6 +362,8 @@ img {
 
 .specialties{
     background: url(/images/specialties/specialbg.png) no-repeat;
+    background-position: bottom center;
+    background-size: cover;
 }
 .specialties__section{
     display: flex;
