@@ -365,6 +365,9 @@ img {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.specialties__wrapper{
+    display: flex;
+}
 .specialties__title{
     font-weight: bold;
     padding: 25px 0;
@@ -372,6 +375,7 @@ img {
     line-height: 14px;
     text-transform: uppercase;
     text-align: center;
+    margin: 0;
 }
 .specialties__image{
     background: url(/images/specialties/specialties.png) no-repeat;
