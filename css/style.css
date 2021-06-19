@@ -359,6 +359,12 @@ img {
 .specialties{
     background: url(/images/specialties/specialbg.png) no-repeat;
 }
+.specialties__section{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .specialties__title{
     font-weight: bold;
     padding: 25px 0;
@@ -373,4 +379,35 @@ img {
     height: 475px;
     background-size: contain;
     margin-right: 40px;
+}
+.specialties__text{
+    max-width: 600px;
+    text-align: center;
+    color: #fff;
+}
+.specialties__left--title{
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 50px;
+}
+.specialties__left--title::after{
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 5px;
+    background-color: #E8C300;
+    bottom: -30px;
+   left: 260px;
+}
+.specialties__small--title{
+    font-size: 14px;
+    line-height: 24px;
+}
+.specialties__para{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.9);
 }
